@@ -1,0 +1,42 @@
+.btn {
+  display: inline-block;
+  background-color: #242dfe;
+  color: #fff;
+  border: 0;
+  padding: 1.8rem 2.4rem;
+  border-radius: 5px;
+  font-family: 'Bitter', serif;
+  font-size: 1.8rem;
+  transition: background-color 0.25s ease-in-out;
+
+  cursor: pointer;
+}
+
+.btn span {
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #1d24dd;
+}
+
+.btnWhite {
+  padding: 1.8rem 2.4rem;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #595959;
+  font-size: 1.8rem;
+  border: 0;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+
+  transition: background-color 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+
+.btnWhite:hover {
+  background-color: whitesmoke;
+}
